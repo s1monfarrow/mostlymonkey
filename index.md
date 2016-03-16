@@ -1,6 +1,6 @@
 # Rules of the road
 
-send help
+send help please
 
 I like simple guidelines. They are training wheels, just there to stop me falling on my face.
 
