@@ -1,6 +1,6 @@
 # Rules of the road
 
-asset test
+asset test 2
 
 I like simple guidelines. They are training wheels, just there to stop me falling on my face.
 
