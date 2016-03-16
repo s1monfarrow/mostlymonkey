@@ -1,6 +1,6 @@
 # Rules of the road
 
-I like simple guidelines. They are training wheels, just there to stop me falling on my face.
+ I like simple guidelines. They are training wheels, just there to stop me falling on my face.
 
 ## General Architecture
 
