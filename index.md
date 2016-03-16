@@ -1,7 +1,5 @@
 # Rules of the road
 
-asset test 3
-
 I like simple guidelines. They are training wheels, just there to stop me falling on my face.
 
 ## General Architecture
