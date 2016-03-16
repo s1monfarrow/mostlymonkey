@@ -1,6 +1,6 @@
 # Rules of the road
 
-meh
+typo
 
 I like simple guidelines. They are training wheels, just there to stop me falling on my face.
 
