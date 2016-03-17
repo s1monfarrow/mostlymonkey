@@ -1,6 +1,8 @@
 # Architecture Consultant
 Hi I’m an independent architecture consultant. The consultant part of that doesn’t mean a flash suit, more that its extremely easy to fire me.
 
+especiall as I can t make lambda work
+
 ## Whats with the domain name
 Every one of us is genetically 98% chimp, a lot of the ways that we react to things are based around that. Its useful to remember.
 
