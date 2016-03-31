@@ -11,8 +11,8 @@ The idea of a micro service is easiest to define as what it is not. It’s not a
 Engineering is about trade offs otherwise its just a [golden hammer](https://en.wikipedia.org/wiki/Law_of_the_instrument)
 
 * Why are you using them?
-* What are the benefits for your specific problem
-* What are the costs/risks, there will be some
+* What are the benefits for your specific problem?
+* What are the costs/risks, there will be some?
 
 ## Risks and Costs
 In any given project the advantages of a technology should be clear otherwise why the hell are you using it again? It’s worth enumerating a list of the risks and costs though as they can easily get missed until its too late.
