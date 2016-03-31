@@ -21,3 +21,6 @@ A short rant about micro-services, well [some of the potential issues](/microser
 
 ## Contacting Me
 The simplest way to contact me is on twitter I’m [@51monfarrow](https://twitter.com/51monfarrow)
+
+## Corrections
+If you see anything glaringly wrong here either let me know or feel free to submit a [pull request](https://github.com/s1monfarrow/mostlymonkey) this is all generated from some markdown with some [useful stuff](https://github.com/mixu/markdown-styles-lambda) 
