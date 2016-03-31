@@ -1,7 +1,5 @@
 # Rules of the road
 
-test
-
 I like simple guidelines. They're training wheels, just there to stop me falling on my face.
 
 ## General Architecture
