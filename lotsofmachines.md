@@ -13,6 +13,8 @@ As well as treating the hardware as separate machines it is also possible to man
 
 Abstracting compute combined with clever scheduling potential allows for cost savings by [making full use of all resources](https://opensource.com/business/14/9/open-source-datacenter-computing-apache-mesos). Especially if large jobs are being run at a lower priority. Mesos is comparable to Google’s [Borg](http://research.google.com/pubs/pub43438.html) and is currently used in production by Twitter.
 
+Longer running processes and services can be managed with [Marathon](https://mesosphere.github.io/marathon/)
+
 # Networking
 As running a large number of containers tends to imply an internal architecture that is made up of smaller services. It is worth mentioning the [Networking infrastructure of the data centre itself](http://highscalability.com/blog/2015/8/10/how-google-invented-an-amazing-datacenter-network-only-they.html).
 
