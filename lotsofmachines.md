@@ -5,8 +5,11 @@ Just a reading list useful tech for doing stuff on lots of machines.
 # [Kubernetes](http://kubernetes.io/) and [Swarm](https://docs.docker.com/swarm/) 
 Managing larger numbers of containers. Swarm uses the native interface of docker, Kubernetes adds new terminology. I’m not sure if swarm deals with the software networking.
 
-# [Rancher](http://rancher.com/) and [Openshift](https://www.openshift.com/showcase/)
+# [Rancher](http://rancher.com/) and [OpenShift](https://www.openshift.com/showcase/)
 These seem similar. But I think that rancher is going to top out in the hundreds of machines as it relies on the GUI too much. Open Shift seems to be the most mature platform. Both can deal with Kubernetes underneath.
+
+# [Prometheus](https://prometheus.io/)
+Allows for auto discovery and monitoring of Kubernetes and OpenShift. All the metrics get shoved in a time series database and analysed with a built in query language. I’m not sure how this will play with ELK Stack.
 
 # Going Large
 As well as treating the hardware as separate machines it is also possible to manage a Data Centre almost as a single compute engine. [Apache Mesos](https://mesosphere.com/why-mesos/) abstracts away the underlying compute infrastructure.
