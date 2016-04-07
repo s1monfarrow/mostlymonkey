@@ -19,3 +19,5 @@ As running a large number of containers tends to imply an internal architecture 
 An infrastructure designed to service requests from the outside world (through n tiers) is unlikely to be able to deal with the increased number of internal requests made by a Micro-services Architecture.
 
 Software Defined Networking may also become of significant interest as it abstracts the network in the same way that Mesos can with the compute. [OpenFlow](https://en.wikipedia.org/wiki/OpenFlow) is a standard that allows for the abstraction of networking hardware, it is now widely supported.
+
+[OpenStack](https://www.openstack.org/) relates to OpenFlow through a project called [Neutron](https://wiki.openstack.org/wiki/Neutron)
