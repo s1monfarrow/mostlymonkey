@@ -19,7 +19,9 @@ To give you some idea of my opinions on stuff I’ve written a [little guide](/r
 ## Microservices
 A short rant about micro-services, well [some of the potential issues](/microservices.html) with them.
 
-## Random Idea
+I also wrote a short essay about my shower making me miserable. It loosely related to building [complex systems out of interacting parts](systems.md)
+
+## Random Ideas
 [Some of them](ideas.md) are really quite random
 
 ## Contacting Me
