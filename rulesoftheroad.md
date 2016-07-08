@@ -8,7 +8,7 @@ Do the work on write/update wherever you can.
 
 Flat file sites are FAST
 
-Caches are bad, if you must cache then let http do it for you. Then the data source retains control of its data with a load consistency trade off.
+Caches are bad. If you must cache then let http do it for you. Then the data source retains control of its data and can make a load consistency trade off.
 
 Avoid using JavaScript without a very good reason.
 
@@ -20,7 +20,7 @@ Micro services move the complexity from compile time to deployment time. Are you
 
 Where is the state? If you’re doing anything of use there must be persistence somewhere. Understand the scope of the persistence. It’s actually what defines the boundaries of the service.
 
-Queue’s count as state. (In a way persistence is queues, or at least order, see linearisation)
+Queue’s count as state. (In a way persistence is queues, or at least order)
 
 ### Communication
 
@@ -30,7 +30,7 @@ Communication should be decoupled wherever possible, contracts.
 
 If things are very closely coupled or even really chatty then they should probably be in the same process and any complexities controlled by a compiler.
 
-Bandwidth Delay/Latency Product: You can have all the bandwidth in the world but latency will kill you most of the time. See notes
+Bandwidth Delay/Latency Product: You can have all the bandwidth in the world but latency will kill you most of the time. See notes.
 
 ### Brewers CAP Theorem (Eric Brewer)
 
@@ -50,7 +50,7 @@ Security is very very hard don’t reinvent the wheel.
 
 Consider the difference between Authentication and Authorisation.
 
-If you need an audit trail that isn’t trivial then consider an event store. If that’s too complex then consider a command model, every request is a command that gets logged as run or failed. Depends on the purpose of the audit trail. 
+If you need an audit trail that isn’t trivial then consider an event store. If that’s too complex then consider a command model, every request is a command that gets logged as run or failed. Depends on the purpose of the audit trail.
 
 ## Non Functional Requirements
 
@@ -66,13 +66,21 @@ Always prototype with real infrastructure.
 
 Start with errors and work up from there.
 
-With something that looks like REST you can get a very useful log just from the HTTP log. 
+With something that looks like REST you can get a very useful log just from the HTTP log. Consider the fact that if it’s not useful you might not be as RESTful as you think.
 
 Aggregate information somewhere and start graphing and alerting.
 
+Extra points for doing clever correlation stuff with the messages.
+
+Automating the response to the above is talked about a great deal. If someone at some point does something other than send a text message it will make me very happy.
+
 ## Code
 
-Management of complexity is everything. 6 dice as a system, 6^6 combinations, untestable. 1 die only has six states.
+Management of complexity is everything. Really it is.
+
+**Consider 6 dice as a system, 6^6 combinations, untestable. 1 die only has six states, much easier to test.** This rule applies at every level of abstraction.
+
+Side effects will kill you. Every. Damn. Time.
 
 * Strings are bad
 * Side effects are bad

@@ -9,7 +9,7 @@ I think that the general idea is that I’ve made lots of mistakes so hopefully 
 
 Being woken up at 3am by text messages from Pingdom and Nagios is about the least fun thing ever. Especially when those are closely followed by the CEO of the company phoning and asking if you know *how much money we are losing*.
 
-As an aside pointing out that your just not making it and not actually losing it really doesn’t help.
+As an aside, pointing out that you’re just not making it and not actually losing it really doesn’t help.
 
 It could always be worse though, you could be the on the [Devops team at Knight Capital](http://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/)
 
