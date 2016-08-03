@@ -24,6 +24,9 @@ I also wrote a short essay about my shower making me miserable. It loosely relat
 ## Random Ideas
 [Some of them](ideas.md) are really quite random
 
+## Reading List
+I’ve started to accumulate a list of [interesting posts](posts.md) and the [books I’m working my way through](books.md).
+
 ## Contacting Me
 The simplest way to contact me is on twitter I’m [@51monfarrow](https://twitter.com/51monfarrow)
 
