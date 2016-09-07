@@ -21,10 +21,20 @@ A classic, required reading. I should have read it before I started doing it as 
 
 ## Data
 [I Heart Logs: Event Data, Stream Processing, and Data Integration](http://amzn.to/2agYxmZ)
+Quite a slim book, a collection of a few blog posts really. I’d still recommend reading it though.
 
 [Big Data: Principles and best practices of scalable realtime data systems](http://amzn.to/2arzlat)
 
 ## Writing
 [The Elements of Style](http://amzn.to/2agZ3l3)
 
+## The Queue
+
+### [Identity and Data Security for Wed Development](http://amzn.to/2c2T5lL) - Jonathan LeBlanc
+
+### [Decentralized Applications](http://amzn.to/2c9fIWv) - Siraj Raval
+
+### [Blockchain: Blueprint for a New Economy](http://amzn.to/2crnIkm) - Melanie Swan
+
+### [Kubernetes: Up and Running](http://amzn.to/2c2TX9R) - Kelsey Hightower
 
